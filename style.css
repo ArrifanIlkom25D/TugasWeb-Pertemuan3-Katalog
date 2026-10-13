@@ -10,7 +10,6 @@ body {
   font-size: clamp(.95rem, .9rem + .25vw, 1.1rem);
 }
 
-/* clamp() untuk typography */
 h1 { font-size: clamp(1.75rem, 1rem + 4vw, 3.5rem); font-weight: 700; line-height: 1.1; }
 h2 { font-size: clamp(1.4rem, 1rem + 2vw, 2.2rem); font-weight: 700; }
 .card-title { font-size: clamp(1rem, .9rem + .5vw, 1.2rem); }
@@ -26,7 +25,6 @@ h2 { font-size: clamp(1.4rem, 1rem + 2vw, 2.2rem); font-weight: 700; }
 
 .card { border: 1px solid #dcdcd8; border-radius: .75rem; overflow: hidden; }
 
-/* gambar responsif */
 .card img { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
 
 .harga { font-weight: 700; font-size: clamp(1.05rem, 1rem + .4vw, 1.3rem); }
